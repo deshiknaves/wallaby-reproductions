@@ -1,0 +1,25 @@
+{
+  "name": "wallaby-reproductions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproductions of bugs and issues found in Wallaby.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "keywords": [
+    "wallaby",
+    "reproductions",
+    "bugs",
+    "issues"
+  ],
+  "author": "Deshi Rahim",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}
